@@ -1,0 +1,31 @@
+import 'package:flutter/material.dart';
+
+class DiscountBanner extends StatelessWidget {
+  final bool enabled;
+  const DiscountBanner({super.key, required this.enabled});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: double.infinity,
+      margin: const EdgeInsets.all(20),
+      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
+      decoration: BoxDecoration(
+        color: Color(0xFF4A3298),
+        borderRadius: BorderRadius.circular(20),
+      ),
+      child: const Text.rich(
+        TextSpan(
+          style: TextStyle(color: Colors.white),
+          children: [
+            TextSpan(text: "A Summer Surpise\n"),
+            TextSpan(
+              text: "Cashback 20%",
+              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
