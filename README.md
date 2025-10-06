@@ -12,3 +12,8 @@ Skeleton loaders are placeholder UI elements that mimic the structure of your co
 - Easily extendable to real API calls.
 
 ## 📱 Screenshot
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/78ac85dd-a694-4c84-acb3-f8735ac5ed7a" width="300" /> 
+  <img src="https://github.com/user-attachments/assets/63294ba1-be7c-46a9-a92a-3c386b178210" width="300" />
+</p>
+
